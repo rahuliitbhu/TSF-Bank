@@ -74,7 +74,8 @@ useEffect(()=>{
 
     <div className="my-info text-center">
         
-
+        <h2>Rahul Kumar</h2>
+        <h4>My Bank Balance: ₹<span id="myAccountBalance">999999.00</span></h4>
         <button className="btn btn-info" data-bs-toggle="modal" data-bs-target="#money"
         
       
