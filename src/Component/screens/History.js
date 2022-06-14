@@ -6,7 +6,7 @@ const History = () => {
     var count=0;
     const [newdata,setData]=useState([])
     const fetchUser=()=>{
-        fetch('/gettransaction',{
+        fetch('https://tsfbank.herokuapp.com/gettransaction',{
         method:"GET",
         headers:{
                  "Content-Type":"application/json"
