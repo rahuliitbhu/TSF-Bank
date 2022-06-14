@@ -14,7 +14,7 @@ var bal=0;
 const [data,setData]=useState([])
  
 useEffect(()=>{
-    fetch('/user',{
+    fetch('https://tsfbank.herokuapp.com/user',{
         method:"GET",
         headers:{
                  "Content-Type":"application/json"
@@ -39,7 +39,7 @@ useEffect(()=>{
 
   const sendMoney=()=>{
  
-        fetch('/transaction',{
+        fetch('https://tsfbank.herokuapp.com/transaction',{
             method:"POST",
             headers:{
                      "Content-Type":"application/json"
